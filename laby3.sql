@@ -1,60 +1,60 @@
 -- zad 1
 
--- select MIN(placa_pod) as "Minimum", MAX(placa_pod) as "Maksimum", max(placa_pod)-min(placa_pod) as "Roznica" from pracownicy
+select MIN(placa_pod) as "Minimum", MAX(placa_pod) as "Maksimum", max(placa_pod)-min(placa_pod) as "Roznica" from pracownicy
 
 
 
 -- zad2
 
--- select etat, avg(placa_pod) from pracownicy group by etat order by avg(placa_pod) desc
+ select etat, avg(placa_pod) from pracownicy group by etat order by avg(placa_pod) desc
 
 
 
 -- zad3
 
--- select count(*) as "PROFESOROWIE" from pracownicy where etat='PROFESOR' group by etat 
+select count(*) as "PROFESOROWIE" from pracownicy where etat='PROFESOR' group by etat 
 
 
 
---zad 4
+-- zad 4
 
---select id_zesp, sum(placa_pod+coalesce(placa_dod, 0)) as "Sumaryczne place" from pracownicy group by id_zesp order by id_zesp
+select id_zesp, sum(placa_pod+coalesce(placa_dod, 0)) as "Sumaryczne place" from pracownicy group by id_zesp order by id_zesp
 
 
 
 -- zad 5
 
--- select  max(sum(placa_pod+coalesce(placa_dod, 0))) as "Max suma plac"  from pracownicy group by id_zesp
+select  max(sum(placa_pod+coalesce(placa_dod, 0))) as "Max suma plac"  from pracownicy group by id_zesp
 
 
 
 -- zad 6
 
--- select id_szefa, min(placa_pod) from pracownicy where id_szefa is not null group by id_szefa order by min(placa_pod) desc
+ select id_szefa, min(placa_pod) from pracownicy where id_szefa is not null group by id_szefa order by min(placa_pod) desc
 
 
 
 -- zad 7
 
---select id_zesp, count(*) from pracownicy group by id_zesp order by count(*) desc
+select id_zesp, count(*) from pracownicy group by id_zesp order by count(*) desc
 
 
 
 -- zad 8
 
--- select id_zesp, count(*) from pracownicy group by id_zesp having count(*) > 3 order by count(*) desc 
+ select id_zesp, count(*) from pracownicy group by id_zesp having count(*) > 3 order by count(*) desc 
 
 
 
 -- zad 9
 
---select count(id_prac) from pracownicy group by id_prac having count(id_prac) > 1
+select count(id_prac) from pracownicy group by id_prac having count(id_prac) > 1
 
 
 
 -- zad 10
 
--- select etat, avg(placa_pod), count(etat) from pracownicy where DATE '1990-01-01' > zatrudniony group by etat order by etat
+select etat, avg(placa_pod), count(etat) from pracownicy where DATE '1990-01-01' > zatrudniony group by etat order by etat
 
 
 
