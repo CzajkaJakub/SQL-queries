@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b382450-da79-4d72-9115-0dbf4c83a35e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/laby11.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laby12.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +15,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/laby10.sql" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/laby11.sql" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/laby9.sql" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b606ae8d-38d2-47f8-8f81-e3f015a60ae7/console.sql" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="26YCPJdO8q771VWxkVFYteV1IzD" />
